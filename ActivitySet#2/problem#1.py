@@ -1,8 +1,10 @@
 def add(a,b):
-    return sum(a,b)
+  return a+b
 
-def main(): 
-    a=input("enter a number \n")
-    b=input("enter a number \n")
-    c=add(a,b)
-    print("sum : ",c)
+def main():
+  a=int(input("enter a number \n"))
+  b=int(input("enter a number \n"))
+  sum=add(a,b)
+  print("sum is : ", sum)
+
+main()
