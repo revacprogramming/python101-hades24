@@ -1,14 +1,16 @@
-def input_num():
-    a,b=int(input("enter 2 numbers \n"))
+def input(a,b):
+  pass 
 
 def add(a,b):
-    return a+b
+  pass 
 
-def output(sum):
-    print("sum is : ", sum)
+def output(a,b):
+  pass 
 
 def main():
-    z=input_num()
-    output(z)
+  a=int(input("enter a number \n"))
+  b=int(input("enter a number \n"))
+  sum=a+b
+  print("sum is : ", sum)
 
 main()
