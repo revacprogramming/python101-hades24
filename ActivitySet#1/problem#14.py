@@ -10,4 +10,4 @@ d=c.findall("comments/comment")
 sum=0
 for i in d:
     sum+=int(i.find("count").text)
-print(sum)
+print(sum) 
