@@ -11,4 +11,4 @@ for i in a:
 
 for j in b:
     sum+=int(j)
-print(sum)
+print(sum)  
