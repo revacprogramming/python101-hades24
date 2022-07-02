@@ -2,7 +2,7 @@ def grades(a):
     if a>0.9:
         return 1
     elif a>0.8 and a<=0.9:
-        return 2
+        return 2 
     elif a>0.7 and a<=0.8:
         return 3
     elif a>0.6 and a<=0.7:
