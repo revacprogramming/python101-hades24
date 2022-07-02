@@ -5,4 +5,4 @@ def filedata(text):
 
 text='romeo.txt'
 a=filedata(text)
-print(a)
+print(a) 
