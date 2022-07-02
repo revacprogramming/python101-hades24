@@ -10,6 +10,6 @@ while True:
         smallest=min(a)
     except:
         print ("Invalid input")
-
+ 
 print ("Maximum number is ", largest)
 print ("Minimum number is ", smallest)
