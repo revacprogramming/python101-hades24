@@ -11,4 +11,4 @@ def Files(text):
             print(num,line)
 
 text = input("enter the text file : \n")
-a=Files(text)
+a=Files(text) 
