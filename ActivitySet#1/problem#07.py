@@ -10,3 +10,4 @@ def number(a):
         print(count, line)
         
 a=number(input("enter text file name \n"))
+ 
