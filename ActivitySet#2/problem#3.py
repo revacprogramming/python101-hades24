@@ -1,19 +1,12 @@
-
-
-def get_cs():
-    """get string input"""
-
-
-def cs_to_lot(cs):
-    """convert connected string to list of strings"""
-
-
+def input_function(n):
+    q=[]
+    x=n.split(";")
+    for i in x:
+        a=q.append(tuple(i.split("=")))
+    return(q)
 def main():
-    cs = get_cs()
+    n="system=s;database=d;username=u;password=p"
+    b=input_function(n)
+    print(b)
 
-    lot = cs_to_lot(cs)
-    print(lot)
-
-
-if __name__ == '__main__':
-    main()
+main()
