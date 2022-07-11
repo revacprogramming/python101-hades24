@@ -1,12 +1,14 @@
 
-
 def get_cs():
-    """get string input"""
-
+    string  = input("enter string \n")
+  return string
 
 def cs_to_lot(cs):
-    """convert connected string to list of strings"""
-
+    q=[]
+    x=cs.split(";")
+    for i in x:
+        q.append(tuple(i.split("=")))
+    return q
 
 def lot_to_cs(lot):
     """convert list of strings to connected string"""
