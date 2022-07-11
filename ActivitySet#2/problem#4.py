@@ -22,7 +22,7 @@ def main():
 
     cs=lot_to_cs(lot)  # convert list of strings to connect string
     print(cs)
-
+   
 
 if __name__ == '__main__':
     main()
