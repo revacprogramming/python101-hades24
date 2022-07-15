@@ -21,7 +21,7 @@ def main():
   cs = get_cs()
   d = cs_to_dict(cs)
   print(d)
-  cs = dict_to_cs(d)
+  cs = dict_to_cs(d) 
   print(cs)
 
 main()
