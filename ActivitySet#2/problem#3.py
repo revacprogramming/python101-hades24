@@ -8,5 +8,5 @@ def main():
     n="system=s;database=d;username=u;password=p"
     b=input_function(n)
     print(b) 
- 
+  
 main()
