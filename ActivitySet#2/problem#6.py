@@ -1,10 +1,9 @@
-class Menu:
-    def __init__(self, name, quantity):
-        self.name = name
-        self.quantity = quantity
+ class Menu:
+   return
 
-x = Menu("idly", 10)
-y = Menu("vada", 20)
+m = Menu()  # Menu is a class
+m.add("idly", 10)
+m.add("vada", 20)
 
-print(x.name, ":", x.quantity)
-print(y.name, ":", y.quantity)
+m.show()
+  
