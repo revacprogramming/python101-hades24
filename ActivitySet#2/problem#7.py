@@ -1,10 +1,17 @@
-
-
 class Menu:
-    """fill in class definition here"""
+    def _init_(self,x='',y=''):
+        self.x=x
+        self.y=y
+    def _add_(self,other):
+        return self.x + other.x ,self.y + other.y
 
-
-m = Menu()
-m = m + ("idly", 10) + ("vada", 20)  # Hint: operator overloading special methods (__add__, __sub__, etc.)
-
-print(m)  # should print the menu properly
+#==============METHOD 1==========
+a= Menu("idly ", 'vada ')
+b= Menu("10", '20')
+c=a+b
+for i in c:
+    print(i)
+#==============METHOD 2==========
+m = Menu("idly ", 'vada ') + Menu("10", '20')
+print(m)
+#123
